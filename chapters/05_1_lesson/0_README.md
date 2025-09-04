@@ -24,7 +24,8 @@
   - **Link**: [throw_party.py](throw_party.py)
 
 ## Exercises
-  - **Link**: [exercises.md](./exercises.md)
+  - **Link**: [Instructions - exercises.md](./exercises.md)
+  - **Link**: [Template - exercises.py](./exercises.py)
 
 ## Homework
   - **Link**: [Homework 1 (after Chapter 5)](../05_2_homework/0_README.md)

@@ -27,7 +27,9 @@ If you are given three sticks, you may or may not be able to arrange them in a t
 If any of the three lengths is greater than the sum of the other two, then you cannot form a triangle. Otherwise, you can. (If the sum of two lengths equals the third, they form what is called a “degenerate” triangle.)
 Write a function named is_triangle that takes three integers as arguments, and that prints either “Yes” or “No”, depending on whether you can or cannot form a triangle from sticks with the given lengths.
 Write a function that prompts the user to input three stick lengths, converts them to integers, and uses is_triangle to check whether sticks with the given lengths can form a triangle.
-Exercise 4   What is the output of the following program? Draw a stack diagram that shows the state of the program when it prints the result.
+
+## Exercise 4   
+What is the output of the following program? Draw a stack diagram that shows the state of the program when it prints the result.
 ```
 def recurse(n, s):
     if n == 0:
