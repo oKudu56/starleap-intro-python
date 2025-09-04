@@ -2,10 +2,8 @@
 # Try editing the code to make it work.
 
 main()
+z
 
-def main():
-    say_hello()
 
-def say_hello():
-    print("Hello, World!")
+print("Hello, World!")
 
