@@ -39,14 +39,13 @@ birth = input('When were you born?')
 mo = input('Month?')
 day = input('Day?')
 year = input('Year?')
-print('Hi, '+ fname + lname + ' born on ' + mo + ',' + day + year + '!')
+print('Hi, '+ fname + lname + ' born on ' + mo + day +',' + year + '!')
 
 
 
 
 
 
-print("Homework 1 Exercise 2: Not implemented") # Delete this line when you write your code!
 
 
 
