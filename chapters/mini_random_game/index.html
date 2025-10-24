@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dodge! — Mini Random Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="overlay" class="overlay hidden"></div>
+  <div id="hud" class="hud">
+    <div id="message">Press Space to start. Move with A/D or ◀︎/▶︎. Avoid falling blocks!</div>
+    <div id="score" class="score">Score: 0</div>
+  </div>
+
+  <script type="module">
+    import('./app.js').catch(err => {
+      const overlay = document.getElementById('overlay');
+      overlay.classList.remove('hidden');
+      overlay.innerText = 'Module load/runtime error:\n' + (err && err.stack ? err.stack : String(err));
+      console.error(err);
+    });
+  </script>
+</body>
+</html>
