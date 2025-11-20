@@ -1,8 +1,0 @@
-html,body{height:100%;margin:0;background:#000}
-canvas{display:block}
-.hud{position:fixed;left:12px;top:12px;color:#fff;font-family:sans-serif;user-select:none}
-#message{background:rgba(0,0,0,0.5);padding:6px 10px;border-radius:6px;margin-bottom:6px}
-#controls{font-size:13px;opacity:0.85}
-.overlay{position:fixed;inset:0;background:rgba(0,0,0,0.9);color:#f66;padding:20px;white-space:pre-wrap;z-index:9999}
-.hidden{display:none}
-.chest-label{background:rgba(255,255,255,0.85);color:#000;padding:2px 6px;border-radius:4px;font-size:12px}
