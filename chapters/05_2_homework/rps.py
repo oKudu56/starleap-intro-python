@@ -1,4 +1,4 @@
-print("Welcome to Rock, Paper, Scissors, dog, bird, ")
+print("Welcome to Rock, Paper, Scissors, dog, bird, cat ")
 import getpass
 
 
@@ -29,13 +29,13 @@ elif(player1 == 'rock' and player2 == 'dog'):
 
 
 elif (player1 == 'paper' and player2 == 'rock'):
-        print("Player 2 wins")
+        print("Player 1 wins")
 elif (player1 == 'paper' and player2 == 'scissors'):
         print("Player 2 wins")
 elif (player1 == 'paper' and player2 == 'paper'):
         print("Tie")
 elif(player1 == 'paper' and player2 == 'bird'):
-        print("Tie")
+        print("Player 2 wins")
 elif(player1 == 'paper' and player2 == 'dog'):
         print("Player 2 wins")
 
