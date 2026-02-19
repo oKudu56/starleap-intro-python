@@ -9,7 +9,7 @@ MAX_NUMBER = 10
 
 def get_valid_guess():
     while True:
-        guess_text = (input("I'm thinking of a number, guess it: "))
+        guess_text = (input("I'm thinking of a number from 1 to 10, guess it: "))
         try:
             guess= int(guess_text)
             if guess > MAX_NUMBER or guess < MIN_NUMBER:
@@ -35,6 +35,7 @@ def play_picker():
         else:
             print("Too Low")
         pass
+           
     # TODO: Implement this function
 def main():
     print('-' * 60)

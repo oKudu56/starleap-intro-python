@@ -9,7 +9,9 @@ MAX_NUMBER = 10
 
 def get_number_feedback():
     # TODO: Implement this function
-    answer = input("Enter 'h' if the guess is high, 'l' if the guess is low, and 'c' if it's correct: ")
+    answer = ''
+    while answer != 'h' and answer != 'l' and answer != 'c':
+        answer = input("Enter 'h' if the guess is high, 'l' if the guess is low, and 'c' if it's correct: ")
     return answer
     
 
@@ -34,8 +36,9 @@ def play_guesser():
         guess = get_number()
         print(f"I'm guessing {guess}")
         feedback = get_number_feedback()
+        
        
-        if feedback == 'c':
+        if feedback == '':
             print(f"I guessed it in {guess_count} guesses")
             return guess_count
         elif feedback =='l':
